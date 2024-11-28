@@ -1,0 +1,441 @@
+{
+  "id": "0ff9a974-a5f8-43b6-a604-cf48c088c550",
+  "version": "2.0",
+  "name": "ixigo web testing",
+  "url": "https://www.ixigo.com/",
+  "tests": [{
+    "id": "ad2ef0d7-1702-4536-8c01-458ee3e5dafa",
+    "name": "ixigo web",
+    "commands": [{
+      "id": "f549fa4f-1138-4ca1-a75d-33c74c36aadc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ixigo.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88b76817-7061-45f9-928c-9489b3154024",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "459562ca-5cbf-43a5-b2d4-d34983b58a02",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51343251-6d16-4769-b955-ccdada107dbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative:nth-child(2) > .font-medium > .text-xl",
+      "targets": [
+        ["css=.relative:nth-child(2) > .font-medium > .text-xl", "css:finder"],
+        ["xpath=//div[2]/div/ul/li[2]/a/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e3c22cd-dfcf-4523-85cd-c2b0f4018bd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative:nth-child(3) .h6",
+      "targets": [
+        ["css=.relative:nth-child(3) .h6", "css:finder"],
+        ["xpath=//li[3]/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Trains')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fbaf39f-88b2-498b-bc41-f3b1699875b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative:nth-child(4) .h6",
+      "targets": [
+        ["css=.relative:nth-child(4) .h6", "css:finder"],
+        ["xpath=//li[4]/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Buses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "783d8a86-0004-4b1d-be86-fdba2c538ea3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.abrs-backdrop",
+      "targets": [
+        ["css=.abrs-backdrop", "css:finder"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2c34c3e-30cf-4177-9d66-4025578e71cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#offers-link > span:nth-child(2)",
+      "targets": [
+        ["css=#offers-link > span:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='offers-link']/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fedd1e66-4d14-4865-91b0-bd7b5d26293e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#track-link > span:nth-child(2)",
+      "targets": [
+        ["css=#track-link > span:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='track-link']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/nav/a[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Track Ticket')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00491283-1820-4e1d-ae5a-562c46cd4a64",
+      "comment": "",
+      "command": "click",
+      "target": "css=#need-help-link > span:nth-child(2)",
+      "targets": [
+        ["css=#need-help-link > span:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='need-help-link']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/nav/a[3]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Need Help?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a1509bd-5de4-4c69-a7b4-546cb354c7a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.abrs-backdrop",
+      "targets": [
+        ["css=.abrs-backdrop", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6fb289f-207e-42a8-b2bc-c9eb19354759",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login-link > span:nth-child(2)",
+      "targets": [
+        ["css=#login-link > span:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='login-link']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/nav/a[4]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Login/SignUp')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0707de04-e2d8-4cba-a92a-900a1759bcf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.abrs-backdrop",
+      "targets": [
+        ["css=.abrs-backdrop", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b8543e8-f6d6-4922-89af-4bb13a438114",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > svg path:nth-child(1)",
+      "targets": [
+        ["css=a > svg path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1558408d-6949-457f-9441-a615d649cac9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shrink-0:nth-child(1) use",
+      "targets": [
+        ["css=.shrink-0:nth-child(1) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b8d5c80-9dc3-4327-b70e-c1e16fa7a12d",
+      "comment": "",
+      "command": "click",
+      "target": "id=ixiLogoImg",
+      "targets": [
+        ["id=ixiLogoImg", "id"],
+        ["css=#ixiLogoImg", "css:finder"],
+        ["xpath=//img[@alt='ixigo.com']", "xpath:img"],
+        ["xpath=//img[@id='ixiLogoImg']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/header/div/div/span/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a2ec647-90d4-44ae-9b69-3d285bfe0942",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shrink-0:nth-child(2) use",
+      "targets": [
+        ["css=.shrink-0:nth-child(2) use", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7102",
+      "windowTimeout": 2000
+    }, {
+      "id": "a4b33edb-733e-47bd-b05f-cea25c223b59",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b73aed9-7b5f-4702-bfbb-f3ec062c7602",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7102}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7bc3ff6-dcf2-4f46-88be-26ac70945d81",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9f3a871-d3e5-40a3-bc65-fffbc58b0f6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shrink-0:nth-child(3) .text-brand",
+      "targets": [
+        ["css=.shrink-0:nth-child(3) .text-brand", "css:finder"],
+        ["xpath=//img[@alt='Travel Insurance']", "xpath:img"],
+        ["xpath=//span/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8489",
+      "windowTimeout": 2000
+    }, {
+      "id": "8ea8d06f-9d79-4129-a1c6-e59575f92688",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8489}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "257a15ec-1133-44d3-8253-cabf938e8857",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75139ff3-76ca-445f-8520-129f3050a3c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shrink-0:nth-child(4) .w-\\[1em\\]",
+      "targets": [
+        ["css=.shrink-0:nth-child(4) .w-\\[1em\\]", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c3fc72d-b26b-4bce-9f2f-cc3d95314099",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > .h-40",
+      "targets": [
+        ["css=a > .h-40", "css:finder"],
+        ["xpath=//img[@alt='ixigo.com']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86c76cce-586e-4de1-89da-3c151886d218",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shrink-0:nth-child(5) .w-\\[1em\\]",
+      "targets": [
+        ["css=.shrink-0:nth-child(5) .w-\\[1em\\]", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8762",
+      "windowTimeout": 2000
+    }, {
+      "id": "f7ceb331-8c27-4e0b-9cfd-e847bb2f3667",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8762}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0a7388f-63db-4bba-8ee8-6ca61951afd1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e14568dc-f582-46d2-baa9-03efa2c457eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shrink-0:nth-child(6) > .relative > .relative",
+      "targets": [
+        ["css=.shrink-0:nth-child(6) > .relative > .relative", "css:finder"],
+        ["xpath=//div[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Group Booking')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2007",
+      "windowTimeout": 2000
+    }, {
+      "id": "f487a218-cd6d-43ac-aec5-df0eade106a8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2007}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db56838f-5761-454e-8d6d-066b54b2c2f4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "398d9892-3bf3-4525-8a8d-c82dedd88355",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shrink-0:nth-child(7) use",
+      "targets": [
+        ["css=.shrink-0:nth-child(7) use", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8035",
+      "windowTimeout": 2000
+    }, {
+      "id": "0d9a3ca3-e5fb-44e1-b53e-2b1dd7702c86",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8035}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a71ae306-90f0-4232-ac00-eb624810d4ac",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b49098fc-a857-4356-ab5e-b28830e8455f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shrink-0:nth-child(9) .w-\\[1em\\]",
+      "targets": [
+        ["css=.shrink-0:nth-child(9) .w-\\[1em\\]", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "87240d7f-9912-463c-b187-2ab766df1bb6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,280)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae5daf9b-93d7-4e2f-8759-97c090f6b13c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-col:nth-child(1) > .body-md",
+      "targets": [
+        ["css=.flex-col:nth-child(1) > .body-md", "css:finder"],
+        ["xpath=//div[5]/div/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'IndiGo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9973517-d25c-4225-a9f6-a4f138879b3d",
+      "comment": "",
+      "command": "click",
+      "target": "id=ixiLogoImg",
+      "targets": [
+        ["id=ixiLogoImg", "id"],
+        ["css=#ixiLogoImg", "css:finder"],
+        ["xpath=//img[@alt='ixigo.com']", "xpath:img"],
+        ["xpath=//img[@id='ixiLogoImg']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/header/div/div/span/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "790ffe89-267e-4eeb-a8de-588dad6e4e29",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,39)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bae45f2-799b-4576-b495-0b84096618a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(2) > .relative > .object-contain",
+      "targets": [
+        ["css=.flex:nth-child(2) > .relative > .object-contain", "css:finder"],
+        ["xpath=//img[@alt='AI']", "xpath:img"],
+        ["xpath=//a[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d172bc2-9fe5-4dec-b3cc-121d0a0d7123",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(2) > .relative > .object-contain",
+      "targets": [
+        ["css=.flex:nth-child(2) > .relative > .object-contain", "css:finder"],
+        ["xpath=//img[@alt='AI']", "xpath:img"],
+        ["xpath=//a[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "705e8b29-891e-4be9-b9c0-4432d0412219",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-\\[\\#E4E4E7\\]",
+      "targets": [
+        ["css=.border-\\[\\#E4E4E7\\]", "css:finder"],
+        ["xpath=//div[2]/div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fb04568-5a03-4202-b5a7-dd11df646886",
+      "comment": "",
+      "command": "click",
+      "target": "id=ixiLogoImg",
+      "targets": [
+        ["id=ixiLogoImg", "id"],
+        ["css=#ixiLogoImg", "css:finder"],
+        ["xpath=//img[@alt='ixigo.com']", "xpath:img"],
+        ["xpath=//img[@id='ixiLogoImg']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/header/div/div/span/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d72650d7-9bbd-4199-9d6f-724558b9539c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ad2ef0d7-1702-4536-8c01-458ee3e5dafa"]
+  }],
+  "urls": ["https://www.ixigo.com/"],
+  "plugins": []
+}
